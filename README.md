@@ -1,2 +1,3 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/samuel-lucas6/NoncesAreNoticed.NET/blob/main/LICENSE)
 # NoncesAreNoticed.NET
-A .NET implementation of the HN1-HN4 Nonces are Noticed transforms.
+A .NET implementation of the [HN1-HN4 transforms](https://csrc.nist.gov/csrc/media/Presentations/2023/upgrading-aead-privacy-the-ae2-goal/images-media/sess-2-bellare-bcm-workshop-2023.pdf) from the [Nonces are Noticed paper](https://eprint.iacr.org/2019/624).
