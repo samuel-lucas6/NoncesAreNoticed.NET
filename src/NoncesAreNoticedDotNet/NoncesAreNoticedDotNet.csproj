@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Authors>Samuel Lucas</Authors>
+        <Description>A .NET implementation of the HN1-HN4 transforms from the Nonces are Noticed paper.</Description>
+        <Copyright>Copyright (c) 2023 Samuel Lucas</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/samuel-lucas6/NoncesAreNoticed.NET</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/samuel-lucas6/NoncesAreNoticed.NET</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>aead nonce nonce-hiding hide-nonce hn1 hn2 hn3 hn4</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Geralt" Version="3.0.1" />
+    </ItemGroup>
+
+</Project>
